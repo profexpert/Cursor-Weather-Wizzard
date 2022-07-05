@@ -1,5 +1,13 @@
 body {
+    flex-wrap: wrap;
+    box-sizing: border-box;
     background-color: rgb(205, 243, 250);
+    font-family: Kdam Thmor Pro;
+}
+.all {
+    width: 1440px;
+    margin: 0 auto;
+    height: 1430px;
 }
 .banner1 {
     display: inline-flex;
@@ -7,51 +15,250 @@ body {
     color: white;
     width: 1440px;
     height: 72px;
-    margin: 25px 25px 25px 25px;
 }
 .banner1 p {
-    font-family: Kdam Thmor Pro;
-    font-size: 15px;
+    font-size: 16px;
     margin: 15px 0px 25px 85px;
 }
 .banner1 a {
-    font-family: Kdam Thmor Pro;
-    font-size: 15px;
-    width: 110px;
-    height: 35px;
+    font-size: 16px;
     text-decoration-line: underline;
     color: #4AD295;
     margin: 25px 25px 25px 55px;
 }
 .banner1 button {
-    font-family: Kdam Thmor Pro;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     width: 170px;
-    height: 35px;
-    background-color: #20cf52;
-    margin: 15px 25px 25px 25px;
-    border-radius: 5px;
+    height: 40px;
+    background-color: #20cf98;
+    margin: 15px 25px 15px 25px;
+    border-radius: 4px;
     border: none;
 }
-
 .banner2 {
     display: inline-flex;
     background-color: black;
     color: white;
     width: 1440px;
     height: 72px;
-    margin: 25px 25px 25px 25px;
+    margin: 25px 25px 100px 0px;
 }
-
 .banner2p {
-    font-family: Kdam Thmor Pro;
     display: inline-flex;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
-    margin: 15px 0px 25px 85px;
+    margin-left: 300px;
+}
+.banner2 span {
+    font-size: 20px;
+    margin: 12px 10px 25px 10px ;
+}
+.banner2 img {
+    margin: 20px 10px 25px 200px;
+    background-color: aliceblue;
+    width: 15px;
+    height: 15px;
+}
+.banner2 p a {
+    color: white;
+}
+.banner3 {
+    display: flex;
+    width: 560px; 
+    height: 75px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.banner3 p img {
+   margin: 5px 10px 25px 10px;
+}
+.banner3 p a {
+    color: plum;
+    text-decoration-line:none
+}
+.butD {
+    background-color: #dfe6e6;
+    border-radius: 10px;
+    border: none;
+    width: 63px;
+    height: 28px;
+    font-size: 14px;
+    margin: 25px 0px 25px 15px
+}
+.butA {
+    background-color: rgb(199, 90, 110);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 63px;
+    height: 28px;
+    font-size: 14px;
+    margin: 25px 0px 25px 15px   
+}
+.banner4 {
+    display: flex;
+    align-items: center;
+    font-family: Inconsolata;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    width: 560px; 
+    height: 75px;
+    border-radius: 10px;
+}
+.banner4 p {
+    margin-left: 15px;
+}
+.banner4 p a {
+    color: orange;
+    text-decoration-line:none
+}
+.butO {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    width: 63px;
+    height: 28px;
+    font-size: 16px;
+    margin: 25px 25px 25px 10px
+}
+.banner5 {
+    display: block;
+    background-color: rgb(12, 4, 71);
+    color: white;
+    width: 360px;
+    height: 206px;
+    margin-top: 60px;
+    border-radius: 6px;
+    padding: 14px 24px 24px 24px;   
+}
+.banner5 a {
+    color: white;
+}
+.banner5text {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.butA5 {
+    background-color: #09B3AF;
+    color: white;
+    width: 90px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    margin: 0px 24px 24px 65px;
+}
+.parent1 {
+    display: flex;
 }
 
-.banner2 button {
-    font-size: 10px;
+.banner6 {
+    width: 360px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
+    color: gray;
+    font-size: 14px;
+    margin: 60px 0px 14px 50px;
+    padding: 20px 12px 0px 24px;
 }
+.cookieset {
+    color: black;
+    font-size: 18px;
+}
+.banner6text {
+    font-size: 18px;  
+    margin-bottom: 23px; 
+}
+.but6man {
+    color: gray;
+    width: 160px;
+    height: 32px;
+    margin-right: 12px;
+    border-radius: 6px;
+    border: none;
+    background-color : rgba(235, 232, 232, 0.6)   
+}
+.but6acc {
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    background-color: #40C1A7;
+    color: white;
+}
+
+.banner7{
+    width: 320px;
+    height: 260px;
+    background-color: white; 
+    border-radius: 20px;
+    margin: 30px;
+    display: inline-block;
+}
+.banner7 h1{
+    font-size: 28px;
+    color: #15295A;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.banner7 p{
+    text-align: center; 
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #15295A;
+}
+.banner7 button{
+    width: 124px;
+    height: 44px;
+    border: none;
+    border-radius: 44px;
+    font-size: 14px;
+    background-color: #4A7EFF;
+    color: white; 
+    margin: 0 auto;
+    display: block;
+    margin-top: 12px;
+    
+}
+
+.banner8{
+    width: 320px;
+    height: 137px;
+    background-color: white; 
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.banner8 p{
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.banner8 h4{
+    padding-left: 16px;
+    font-size: 14px;
+    color: #6464e8;
+    display: inline-block;
+    margin-left: 4px;
+}
+.banner8 button{
+    width: 64px;
+    height: 33px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #4676f1;
+    color: white; 
+    padding: 0;
+    margin-left: 120px;
+    
+}
+
